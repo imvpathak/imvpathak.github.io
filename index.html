@@ -1,72 +1,781 @@
----
-<<<<<<< Updated upstream
-title: MediaGust - ICO Marketing Services
-=======
-title: Medigust - Digital Marketing Services
->>>>>>> Stashed changes
-layout: default
-bodyClass: page-home
----
+<!DOCTYPE html><html lang="en-us">
+<head>
+<title>V. PATHAK - Full Stack Blockchain Developer and Digital Marketer</title>
+<!--::::: support meta :::::::-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="I'm V. Pathak, Enthusiastic blockchain technology architect, digital marketer, and business analyst, skilled in leadership and communication." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="V. PATHAK - Full Stack Blockchain Developer and Digital Marketer" />
+<meta property="og:description" content="Hi, I'm V. Pathak, an enthusiastic blockchain technology architect, digital marketer, and business analyst, skilled in leadership and communication." />
+<meta property="og:image" content="https://imvpathak.github.io/assets/images/avatar.png" />
+<meta property="og:url" content="https://imvpathak.github.io" />
+<meta property="og:site_name" content="V. Pathak" />
 
-<div class="intro pb-4">
-  <div class="container">
-    <h1>MEDIAGUST - ICO Marketing Agency</h1>
-    <p>We provide full-scale blockchain &amp; ICO marketing services to help you obtain complete success for your project.</p>
-  </div>
-</div>
+<!--:::::icon Calling:::::::-->
+<link rel="icon" href="https://imvpathak.github.io/assets/images/avatar.png">
+<link rel="apple-touch-icon" href="https://imvpathak.github.io/assets/images/avatar.png">
+<link rel="canonical" href="https://imvpathak.github.io" />
+<!--::::: ALL CSS CALLING :::::::-->
+<link rel="stylesheet" href="assets/css/animate.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/fontawesome.css">
+<link rel="stylesheet" href="assets/css/modal-video.min.css">
+<link rel="stylesheet" href="assets/css/stellarnav.css">
+<link rel="stylesheet" href="assets/css/owl.carousel.css">
+<link rel="stylesheet" href="assets/css/typography.css">
+<link rel="stylesheet" href="assets/css/theme.css">
+<link rel="stylesheet" href="assets/css/button.css">
+<link rel="stylesheet" href="assets/css/inner.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<!--HEADE END-->
 
-<div class="container pt-2">
-  <div class="call">
-    <div class="call-box-top">
-      <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
-      <div class="call-email"><strong>Email: </strong>
-        <a href="mailto:{{ site.data.contact.email }}">
-          {{ site.data.contact.email }}
-        </a>
-      </div>
-    </div>
-    <div class="call-box-bottom">
-      <a href="{{site.baseurl}}/contact" class="button">Contact</a>
-    </div>
-  </div>
-</div>
+<body>
+    <!--BODY START-->
 
-<div class="container pt-8 pt-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12">
-      <h2 class="title-3 text-dark mb-3">Our Services</h2>
+    <!--PLACEHOLDER AREA START-->
+    <div class="preloader">
+        <div class="lds-dual-ring"></div>
     </div>
-    {% for service in site.services %}
-    <div class="col-12 col-md-4 mb-1">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
-          </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
+    <!--PLACEHOLDER AREA END-->
+
+    <div class="site site-white"> <!--::::: SITE AREA START :::::::-->
+        <!--::::: HEADER AREA START :::::::-->
+            <div class="header-area" id="header">
+                <!--scroll to up btn-->
+                <a href="#home" class="up-btn"><i class="fal fa-angle-up"></i></a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-lg-3 align-self-center">
+                            <a href="index.html" class="logo"><img src="assets/images/logo.svg" width="180px;" alt="V. Pathak"></a>
+                        </div>
+                        <div class="col-6 text-center align-self-center">
+                            <div class="main-menu">
+                                <div class="stellarnav">
+                                    <ul class="navbarmneuclass">
+                                        <li><a href="#abilities">Abilities</a></li>
+                                        <li><a href="#portfolio">Portfolio</a></li>
+										<li><a href="#hireme">Hire Me</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                      <div class="d-none d-lg-block col-lg-3 align-self-center text-right">
+                            <div class="search-area">
+                                <div class="search-box">
+                                    <form action="">
+                                        <input type="search" placeholder="Search">
+                                    </form>
+                                    <div class="search-btn">
+                                        <a href="#"><i class="fas fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="grid-menu" id="grid-side">
+                                    <img src="assets/images/hamburger.svg" alt="full stack developer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-widgest-wrap" id="slide-widgest">
+                    <div class="side-widgest" id="side-content">
+                        <div class="side-close" id="close-btn">
+                        <i class="fal fa-times"></i>
+                    </div>
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo.svg" alt="V. Pathak"></a>
+                        </div>
+                        <div class="side-content">
+                        <p style="text-align: justify;">Welcome, This is online home of V. Pathak full stack blockchain developer, designer, digital marketer, perpetual entrepreneur, and still-aspiring polymath. I enjoy coming to work every day to create something beautiful that has the ability to impact others.</p>
+                        </div>
+                        <div class="side-social">
+                            <ul>
+                        <li><a href="https://twitter.com/imvpathak"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://t.me/path2020"><i class="fab fa-telegram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/imvpathak/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/Tech_Trends_2020/"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--::::: HEADER AREA END :::::::-->
+
+        <!--:::::WELCOME ATRA START :::::::-->
+        <div class="welcome-area-wrap welcome__wrap2">
+            <!--::::: WELCOME CAROUSEL START :::::::-->
+            <div class="welcome-area" id="home">
+                <div class="single-welcome-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="wlc-title white">
+                                    <h1 class="fadeInDown animated">Hey, I'M <span>V. Pathak</span><br />Blockchain Developer <br />&amp; Digital Marketer</h1>
+<p class="fadeInDown animated" style="text-align: justify;">My passion and focus is blockchain development &amp; digital marketing. I have spent my entire adult life and most of my childhood engrossed in coding, digital marketing and the functions that drive it. If you want to learn more about working with me, give me a call (or email).</p>
+<a href="contact.html" class="cbtn cbnt1 fadeInDown animated">Contact Me <i class="fal fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wlc-author-1">
+                        <img src="assets/images/author3.png" alt="V. Pathak">
+                        <h1 class="wlc-filltext">V. Pathak</h1>
+                    </div>
+                </div>
+
+            </div>
+            <!--::::: WELCOME CAROUSEL END:::::::-->
+            <div class="memphis-wrap">
+                <div class="memphics">
+                    <img src="assets/images/cta1.png" alt="crypto" class="memphis memphis1">
+                    <img src="assets/images/circle_shape.svg" alt="stablecoin" class="memphis memphis2">
+                    <img src="assets/images/cta2.png" alt="altcoin" class="memphis memphis3">
+                    <img src="assets/images/cta3.png" alt="smart contract" class="memphis memphis4">
+                    <img src="assets/images/cta6.svg" alt="Ethereum" class="memphis memphis5">
+                    <img src="assets/images/cta5.png" alt="Bitcoin" class="memphis memphis6">
+                    <img src="assets/images/cta7.svg" alt="Hyperledger" class="memphis memphis7">
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    {% endfor %}
-    <div class="col-12 text-center">
-      <a class="button button-primary mt-2" href="{{site.baseurl}}/services">View All Services</a>
-    </div>
-  </div>
-</div>
+        <!--:::::WELCOME AREA END :::::::-->
 
-<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
-  <div class="row justify-content-center">
-    <div class="col-12">
-      <h2 class="title-3 text-dark mb-4">Our Features</h2>
-    </div>
-    {% for feature in site.data.features %}
-    <div class="col-12 col-md-6 col-lg-4 mb-2">
-      <div class="feature">
-        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
-        <h2 class="feature-title">{{ feature.title }}</h2>
-        <div class="feature-content">{{ feature.description }}</div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
+        <!--:::::SERVICE AREA START :::::::-->
+        <div class="service-area service-primery padding-top" id="abilities">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-service pricing2">
+                            <div class="service-icon">
+                                 <img src="assets/images/service1.svg" alt="Blockchain Development">
+                            </div>
+                            <div class="service-text">
+                                <h4>Blockchain Development</h4>
+                                <p>Full stack blockchain developer from blockchain architecture, data structure, cryptography, smart contacts to Dapps</p>
+                            </div>
+                            <div class="circles-wrap">
+                                <div class="circles">
+                                    <span class="circle circle-1"></span>
+                                    <span class="circle circle-2"></span>
+                                    <span class="circle circle-3"></span>
+                                    <span class="circle circle-4"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-service active pricing2">
+                            <div class="service-icon">
+                                <img src="assets/images/service2.svg" alt="ICO & STO Development">
+                            </div>
+                            <div class="service-text">
+                                <h4>ICO &amp; STO Development</h4>
+                                <p>From token desing &amp; creation to smart contract, code testing &amp; audits to fully integrated token or coin development</p>
+                            </div>
+                            
+                            <div class="circles-wrap">
+                                <div class="circles">
+                                    <span class="circle circle-1"></span>
+                                    <span class="circle circle-2"></span>
+                                    <span class="circle circle-3"></span>
+                                    <span class="circle circle-4"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-service pricing2">
+                            <div class="service-icon">
+                                <img src="assets/images/service3.svg" alt="Digital Marketing">
+                            </div>
+                            <div class="service-text">
+                                <h4>Digital Marketing</h4>
+                                <p>Full stack digital marketing from whitepaper, ICO listing, airdrop, bounty campaign to social media &amp; PR management</p>
+                            </div>
+                            
+                            <div class="circles-wrap">
+                                <div class="circles">
+                                    <span class="circle circle-1"></span>
+                                    <span class="circle circle-2"></span>
+                                    <span class="circle circle-3"></span>
+                                    <span class="circle circle-4"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--:::::SERVICE AREA END :::::::-->
+
+        <!--:::::SKILL AREA START :::::::-->
+        <div class="skill-area primery-skill section-padding" id="experience">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div class="primery-heading">
+                            <strong class="filltext">My carrer</strong>
+                            <small>MY EXPERIENCE</small>
+                            <h2>Experience and <span>Skill</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-self-center">
+                         <div class="primery-info-content">
+                            <p style="text-align: justify;">Decades of programming and blockchain experience have yielded a diverse skill set that touches almost every function of blockchain technology.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-60"></div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="skill-box skill-box2">
+                            <small>Sep 2019 - Till Date. &nbsp; (GNG Limited)</small>
+                            <h5>Technology Architect</h5>
+                            <p style="text-align: justify;">Full stack GNG Blockchain development, incluing on-chain architecture, data structure &amp; audit protocol upgrades.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="skill-box skill-box2">
+                            <small>Dec 2017 - Aug 2019. &nbsp; (Aglpay)</small>
+                            <h5>Blockchain Developer</h5>
+                            <p style="text-align: justify;">Developed smart contract, token eco-system, web &amp; mobile wallet app, bounty campaign, ICO launching platform, etc...</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="skill-box skill-box2">
+                            <small>Feb 2015 - Nov 2017.  &nbsp; (COBINHOOD)</small>
+                            <h5>Blockchain Developer</h5>
+                            <p style="text-align: justify;">Developed peer-to-peer crypto exchange based on smart contracts and trading engine with the development team.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--:::::SKILL AREA END :::::::-->
+        
+        <div class="container">
+            <div class="border_separatior"></div>
+        </div>
+
+
+        <!--:::::PROJECT AREA START :::::::-->
+        <div class="project-area project-area2 project-area-primery padding-top" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div class="primery-heading">
+                            <strong class="filltext">My Projects</strong>
+                            <small>WORKING PROCESS</small>
+                            <h2>Lastet Working <span>Projects</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 align-self-center">
+                         <div class="primery-info-content">
+                            <p>Work with local, as well as, international clients has become an amazing opportunity for me.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-60"></div>
+                <div class="row">
+                    <ul id="da-thumbs" class="da-thumbs portfolio-carousel2 owl-carousel">
+                        <li>
+                            <a href="contact.html">
+                                <img src="assets/images/project1.png" alt="ICO Launch Project">
+                                <div><span>My Latest Project</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <img src="assets/images/project2.png" alt="Dapps Project">
+                                <div><span>My Latest Project</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <img src="assets/images/project3.png" alt="Blockchain Project">
+                                <div><span>My Latest Project</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <img src="assets/images/project4.png" alt="Crypto Project">
+                                <div>
+                                    <span>My Latest Project</span>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <img src="assets/images/project2.png" alt="Stablecoin Project">
+                                <div>
+                                    <span>My Latest Project</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--:::::PROJECT AREA END :::::::-->
+
+        <!--:::::TESTIMONIALS AREA START :::::::-->
+        <div class="testimonials-area testimonials-area-primery section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 align-self-center">
+                        <div class="primery-heading">
+                            <strong class="filltext">Testimonials</strong>
+                            <small>Recommendations</small>
+                            <h2>Happy <span>Clients</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 align-self-center">
+                         <div class="primery-info-content">
+                            <p>Read what some of my customers are saying about me and my work.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-60"></div>
+                <div class="row">
+                    <div class="col-lg-10 m-auto">
+                        <div class="testimonials owl-carousel">
+                            <div class="testimonial">
+                                <div class="testimonial-img animated fadeInLeft">
+                                    <img src="assets/images/testimonial1.jpg" alt="testimonial">
+                                </div>
+                                <div class="testimonial-text animated fadeInDown">
+                                    <img src="assets/images/quote.png" alt="quote">
+                                    <h4 style="text-align: justify;">Vinod is a great and super professional blockchain developer. He impressed me with his attention to details, development skills, and comprehensive approach.</h4>
+                                    <p>Chen Mao, Cobinhood</p>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <div class="testimonial-img">
+                                    <img src="assets/images/testimonial2.jpg" alt="testimonial">
+                                </div>
+                                <div class="testimonial-text">
+                                    <img src="assets/images/quote.png" alt="quote">
+                                    <h4 style="text-align: justify;">A great end-to-end blockchain developer. He delivered a well developed and reliable, fully functional ICO launch platform &amp; web wallet within a quick deadline.</h4>
+                                    <p>Florin Novak, MyTVChain</p>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <div class="testimonial-img">
+                                    <img src="assets/images/testimonial3.jpg" alt="testimonial">
+                                </div>
+                                <div class="testimonial-text">
+                                    <img src="assets/images/quote.png" alt="quote">
+                                    <h4 style="text-align: justify;">Vinod is truly capable of developing &amp; delivering complex blockchain based applications. His ability to produce implementable and on-time delivery is hallmarks of his work.</h4>
+                                    <p>Clemen, Mars Blockchain</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--:::::TESTIMONIALS AREA END :::::::-->
+
+        <!--:::::COUNTER AREA START :::::::-->
+        <div class="fun-facts center section-padding" id="facts">
+            <div class="pattern"></div>
+            <div class="container">
+                <div class="row">
+                    <!-- Fact No. 1 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="fact Client">
+                            <i class="far fa-smile"></i>
+                            <h2 id="number_1">0</h2>
+                            <span>Happy Clients</span>
+                        </div>
+                    </div>
+                    <!-- Fact No. 2 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="fact Team">
+                            <i class="far fa-clock"></i>
+                            <h2 id="number_2">0</h2>
+                            <span>Years Experience</span>
+                        </div>
+                    </div>
+                    <!-- Fact No. 3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="fact Count">
+                            <i class="far fa-sliders-h"></i>
+                            <h2 id="number_3">0</h2>
+                            <span>Digital Products</span>
+                        </div>
+                    </div>
+                    <!-- Fact No. 4 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="fact Awward">
+                           <i class="far fa-trophy"></i>
+                            <h2 id="number_4">0</h2>
+                            <span>Awards</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--:::::COUNTER AREA END :::::::-->
+
+         <!--:::::PRICING AREA START :::::::-->
+        <div class="pricing-area padding-top" id="hireme">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div class="primery-heading">
+                            <strong class="filltext">Hire Me</strong>
+                            <small>End-to-End Blockchain Solution</small>
+                            <h2>I'm Here to <span>Help</span></h2>
+                        </div>
+                    </div>
+                     <div class="col-lg-6 align-self-center">
+                         <div class="primery-info-content">
+                            <p>Hire me for full stack blockchain development including smart contracts, protocols, Hyperledger, and Dapps...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-60"></div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-service pricing2">
+                            <div class="service-icon">
+                                <img src="assets/images/service1.svg" alt="Full Stack Blockchain Consultancy">
+                            </div>
+                            <div class="service-text">
+                                <h3>Consultancy</h3>
+                                <h5>Full Stack Blockchain Consultancy</h5>
+                            </div>
+                            <div class="separator"></div>
+                             <div class="service-text">
+                                <h3>$145</h3>
+                                <h5>Per Hour</h5>
+                            </div>
+
+                            <a href="contact.html" class="cbtn pricing-btn">Contact Me <i class="fal fa-angle-right"></i></a>
+                            <div class="circles-wrap">
+                                <div class="circles">
+                                    <span class="circle circle-1"></span>
+                                    <span class="circle circle-2"></span>
+                                    <span class="circle circle-3"></span>
+                                    <span class="circle circle-4"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-service active pricing2">
+                            <div class="service-icon">
+                                <img src="assets/images/service2.svg" alt="Blockchain, Smart Contract, Token/Coin">
+                            </div>
+                            <div class="service-text">
+                                <h3>Development</h3>
+                                <h5>Blockchain, Smart Contract, Token/Coin</h5>
+                            </div>
+                            <div class="separator"></div>
+                             <div class="service-text">
+                                <h3>$100</h3>
+                                <h5>Per Hour</h5>
+                            </div>
+                            <a href="contact.html" class="cbtn pricing-btn">Contact Me <i class="fal fa-angle-right"></i></a>
+                            <div class="circles-wrap">
+                                <div class="circles">
+                                    <span class="circle circle-1"></span>
+                                    <span class="circle circle-2"></span>
+                                    <span class="circle circle-3"></span>
+                                    <span class="circle circle-4"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-service pricing2">
+                            <div class="service-icon">
+                                <img src="assets/images/service3.svg" alt="ICO, STO Marketing & Promotion">
+                            </div>
+                            <div class="service-text">
+                                <h3>Marketing</h3>
+                                <h5>ICO, STO Marketing &amp; Promotion</h5>
+                            </div>
+                            <div class="separator"></div>
+                             <div class="service-text">
+                                <h3>$45</h3>
+                                <h5>Per Hour</h5>
+                            </div>
+                            
+                            <a href="contact.html" class="cbtn pricing-btn">Contact Me <i class="fal fa-angle-right"></i></a>
+                            <div class="circles-wrap">
+                                <div class="circles">
+                                    <span class="circle circle-1"></span>
+                                    <span class="circle circle-2"></span>
+                                    <span class="circle circle-3"></span>
+                                    <span class="circle circle-4"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!--:::::PRICING AREA END :::::::-->
+
+        <!--:::::BLOG AREA START :::::::-->
+        <div class="blog-area section-padding" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 align-self-center">
+                        <div class="primery-heading">
+                            <strong class="filltext">My Blog</strong>
+                            <small>Blog Posts &amp; Articles</small>
+                            <h2>My Recent <span>Posts</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 align-self-center">
+                         <div class="primery-info-content">
+                            <p>I write about blockchain, cryptocurrency, tech, and culture. Here are some recent posts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-60"></div> 
+                <div class="row">
+                    <div class="blogs owl-carousel">
+                        <div class="single-blog">
+                            <div class="single-blog-img">
+                               <img src="assets/images/team__1.png" alt="Future of Blockchain">
+                            </div>
+                            <div class="blog-description">
+                                <p>February 02, 2020</p>
+                                <a href="https://news18.kinja.com/the-future-of-blockchain-technology-1841415662" target="_blank;">The Future of Blockchain Technology...</a>
+                                <a href="https://news18.kinja.com/the-future-of-blockchain-technology-1841415662" class="readmore-btn" target="_blank;"><i class="fal fa-arrow-right"></i> read more</a>
+                            </div>
+                           
+                        </div>
+                        <div class="single-blog">
+                            <div class="single-blog-img">
+                               <div class="single-blog-img">
+                                   <img src="assets/images/team__2.png" alt="The Rise of Stablecoins">
+                                </div>
+                            </div>
+                            <div class="blog-description">
+                                <p>January 19, 2020</p>
+                                <a href="https://news18.kinja.com/the-rise-of-stablecoins-continues-in-2020-1841101841" target="_blank;">The Rise of Stablecoins Continues in 2020...</a>
+                                <a href="https://news18.kinja.com/the-rise-of-stablecoins-continues-in-2020-1841101841" class="readmore-btn" target="_blank;"><i class="fal fa-arrow-right"></i> read more</a>
+                            </div>
+                           
+                        </div>
+                        <div class="single-blog">
+                            <div class="single-blog-img">
+                               <div class="single-blog-img">
+                                   <img src="assets/images/team__3.png" alt="GPU Crypto Miner">
+                                </div>
+                            </div>
+                            <div class="blog-description">
+                                <p>August 06, 2018</p>
+                                <a href="https://news18.kinja.com/the-world-s-first-68-gpu-crypto-currency-miner-1828146730" target="_blank;">The World's First 68 GPU Crypto Miner...</a>
+                                <a href="https://news18.kinja.com/the-world-s-first-68-gpu-crypto-currency-miner-1828146730" class="readmore-btn" target="_blank;"><i class="fal fa-arrow-right"></i> read more</a>
+                            </div>
+                           
+                        </div>
+                        <div class="single-blog">
+                            <div class="single-blog-img">
+                               <div class="single-blog-img">
+                                   <img src="assets/images/team__4.png" alt="The Pluto Protocol">
+                                </div>
+                            </div>
+                            <div class="blog-description">
+                            <p>May 14, 2018</p>
+                            <a href="https://news18.kinja.com/the-pluto-protocol-recent-announcement-by-unicef-aust-1826006710" target="_blank;">The Pluto Protocol by Unicef Australia...</a>
+                            <a href="https://news18.kinja.com/the-pluto-protocol-recent-announcement-by-unicef-aust-1826006710" class="readmore-btn" target="_blank;"><i class="fal fa-arrow-right"></i> read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--:::::BLOG AREA END :::::::-->
+
+
+        <!--:::::CALL TO ACTION AREA START :::::::-->
+        <div class="cta-area cta-are2 padding-top cta-primery" style="background-image: url(assets/images/world-map.svg);background-position: center;background-size: cover;background-repeat: no-repeat;" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 m-auto text-center">
+                     <div class="primery-heading cta-heading">
+                        <small>Free Newsletter</small>
+                        <div class="space-20"></div>
+                        <h2>Stay Tuned with New <span>Updates!</span></h2>
+                    </div>
+                    <div class="space-40"></div>
+                    <div class="cta-form">
+                        <form id="my-form" action="https://formspree.io/xlebjvzd" method="POST">
+                        <input type="email" name="email" placeholder="Enter Your Email..">
+                  <a href="#contact" id="my-form-button" class="subscribe-btn">Subscribe <i class="fal fa-comments-alt"></i></a>
+					   <p id="my-form-status"></p>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space-100"></div>
+            <div class="space-20"></div>
+            <!--:::::SOCIAL AREA START :::::::-->
+
+            <div class="social-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg">
+                            <div class="single-social">
+                                <div class="sinlge-social-hover" style="background: url(assets/images/social4.png);background-position: center;-webkit-background-size: cover;
+                                background-size: cover;">
+                                    <a href="https://twitter.com/imvpathak" target="_blank;">
+                                        <span class="single-social-icon"><i class="fab fa-twitter"></i></span>
+                                        <p class="single-soicial-text">Join Me on Twitter!</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="single-social">
+                                <div class="sinlge-social-hover" style="background: url(assets/images/social1.png);background-position: center;-webkit-background-size: cover;
+                                background-size: cover;">
+                                    <a href="https://www.linkedin.com/in/imvpathak/" target="_blank;">
+                                        <span class="single-social-icon"><i class="fab fa-linkedin-in"></i></span>
+                                        <p class="single-soicial-text">Join Me on Linkedin!
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="single-social">
+                                <div class="sinlge-social-hover" style="background: url(assets/images/social2.png);background-position: center;-webkit-background-size: cover;
+                                background-size: cover;">
+                                    <a href="https://www.instagram.com/Tech_Trends_2020/" target="_blank;">
+                                        <span class="single-social-icon"><i class="fab fa-instagram"></i></span>
+                                        <p class="single-soicial-text">Join Me on Instagram!</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="single-social">
+                                <div class="sinlge-social-hover" style="background: url(assets/images/social3.png);background-position: center;-webkit-background-size: cover;
+                                background-size: cover;">
+                                    <a href="https://t.me/path2020" target="_blank;">
+                                        <span class="single-social-icon"><i class="fab fa-telegram"></i></span>
+                                        <p class="single-soicial-text">Join Me on Telegram!</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="single-social">
+                                <div class="sinlge-social-hover" style="background: url(assets/images/social2.png);background-position: center;-webkit-background-size: cover;
+                                background-size: cover;">
+                                    <a href="https://github.com/imvpathak" target="_blank;">
+                                        <span class="single-social-icon"><i class="fab fa-github"></i></span>
+                                        <p class="single-soicial-text">Join Me On GitHub!</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--:::::SOCIAL AREA END :::::::-->
+            <img src="assets/images/cta1.png" alt="Blockchain Developer" class="cta-shape cta-shap1">
+            <img src="assets/images/cta2.png" alt="Blockchain Development" class="cta-shape cta-shap2">
+            <img src="assets/images/cta3.png" alt="Blockchain Programming" class="cta-shape cta-shap3">
+            <img src="assets/images/cta4.png" alt="Crypto Coin" class="cta-shape cta-shap4">
+            <img src="assets/images/cta5.png" alt="ICO Developer" class="cta-shape cta-shap5">
+        </div>
+        <!--:::::CALL TO ACTION AREA END :::::::-->
+
+
+        <!--:::::FOOTER AREA START :::::::-->
+        <div class="footer-area section-padding" style="background-image: url(assets/images/footer-bg.png);background-size: cover;background-position: center;background-repeat: no-repeat;">
+             <!--:::::LOGO AREA START :::::::-->
+        <div class="logo-carousel">
+            <div class="container">
+                <div class="row">
+                    <div class="logos owl-carousel">
+                        <div class="single-logo-table">
+                            <div class="single-logo-table-cell">
+                               <img src="assets/images/006.svg" alt="Blockchain">
+                            </div>
+                        </div>
+						    <div class="single-logo-table">
+                            <div class="single-logo-table-cell">
+                                <img src="assets/images/005.svg" alt="ICO Promotion">
+                            </div>
+                        </div>
+                        <div class="single-logo-table">
+                            <div class="single-logo-table-cell">
+                                <img src="assets/images/002.svg" alt="STO Development">
+                            </div>
+                        </div>
+                        <div class="single-logo-table">
+                            <div class="single-logo-table-cell">
+                                <img src="assets/images/003.svg" alt="Wallet App">
+                            </div>
+                        </div>
+                        <div class="single-logo-table">
+                            <div class="single-logo-table-cell">
+                                <img src="assets/images/004.svg" alt="Blockchain Developer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space-100"></div>
+        <!--:::::LOGO AREA END :::::::-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 m-auto text-center">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="https://imvpathak.tumblr.com/" target="_blank;">My Blog</a></li>
+                                <li><a href="#" target="_blank;">Code Shop</a></li>
+                                <li><a href="https://github.com/imvpathak" target="_blank;">GitHub</a></li>
+                                <li><a href="https://www.pinterest.com/imvpathak/" target="_blank;">Gallery</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="space-40"></div>
+                        <div class="copyright">
+                            <p>Copyright © 2020, <span> V. Pathak</span>. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--:::::FOOTER AREA END :::::::-->                     
+		</div> 
+		<!--:::::SITE AREA END :::::::-->
+		
+   <!--:::::ALL JS FILES :::::::-->
+    <script src="assets/js/jQuery.2.1.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery-modal-video.min.js"></script>
+    <script src="assets/js/stellarnav.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/easypiechart.min.js"></script>
+    <script src="assets/js/animatenumber.min.js"></script>
+    <script src="assets/js/bars.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/jquery.hoverdir.js"></script>
+    <script src="assets/js/isotop.v3.0.4.min.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/mail.js"></script>
+</body>
+<!--BODY END-->
+</html>
